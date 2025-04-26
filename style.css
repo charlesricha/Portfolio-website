@@ -183,9 +183,11 @@ option{
     width: 48%;
 }
 
+/* What I offer */
+
 .my-works{
-    border: 1px solid orangered;
-    background:rgba(3, 34, 13, 0.8);
+    
+    background:rgba(3, 34, 13, 0.9);
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -222,7 +224,7 @@ option{
     box-shadow:0 0 20px var(--primary-color);
 }
 
-
+/* Skills  */
 .skills{
     display: flex;
     flex-direction: column;
@@ -257,9 +259,81 @@ option{
     justify-content: center;
 }
 
-
-
-
 .skills-grid-section{
     display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 2rem;
+    align-items: center;
+    justify-content:center
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap: 1rem;
+}
+
+.skills-r-image img{
+    width: 30vw;
+}
+
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: var(--font-color);
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.tally{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+    background:rgba(3, 34, 13, 0.9);
+    color: var(--font-color);
+    gap: 3rem;
+}
+
+.tally h1{
+    font-size: 3rem;
+    color: var(--font-color);
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+.myprojects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: var(--font-color);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.project-card img{
+    max-width: 20vw;
 }

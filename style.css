@@ -1,0 +1,182 @@
+/***********************************
+Importing fonts from google fonts 
+**********************************/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Outfit:wght@100..900&display=swap');
+
+/********************
+ Universal Styles 
+ *******************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #09d85f;
+    --secondary-color: #2e302f;
+    --tertiary-color: #033b16;
+    --font-color: #ffffff;
+    --second-font-color: #000000;
+    --outfit:"Outfit", sans-serif;
+    --confortaa:"Comfortaa", sans-serif;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--font-color);
+    
+}
+
+a:hover{
+    color: var(--primary-color);
+}
+
+body{
+    background: #ffffff;
+    color:black;
+    font-family: var(--outfit);
+}
+
+.btn{
+    width: auto;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    color: var(--font-color);
+    background-color: #033b16;
+    border-radius: 15px;
+}
+
+.buttons{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+/* ***********************
+        Hero
+************************/
+
+
+
+main{
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(3, 34, 13, 0.5), rgba(4, 37, 10, 0.5)), url('images/Main-bg.jpg') no-repeat center center/cover;
+}
+
+/* Navbar */
+
+.navbar{
+    height:8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+nav{
+    display: flex;
+    gap: 2rem;
+}
+
+select{
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--confortaa);
+    
+}
+option{
+    background-color: var(--second-font-color);
+    border: none;
+    border-radius: 0 0 15px 15px;
+}
+
+/* Hero */
+.left-content{
+    width: 48vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.left-content h1{
+    font-size: 3rem;
+    font-family: var(--confortaa);
+    color: var(--font-color);
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+.hero-img{
+    border:1px dashed white;
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.hero-img img{
+    border-radius: 15px;
+    border:1px dashed orange;
+    height: 100vh;
+    width: auto;
+}
+
+
+
+/* biography */
+.biography{
+    border: 1px solid var(--primary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.biography-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding:2rem;
+    margin: 0 auto;
+}
+
+.bio-img{
+    max-height: 90vh;
+    width: 48vw;
+    overflow: hidden;
+}
+
+.bio-content{
+    width: 48%;
+}

@@ -196,7 +196,10 @@ option{
     gap: 2rem;
     color: var(--font-color);
 }
-
+.my-works h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
 .works{
     color: var(--second-font-color);
     width: 80%;
@@ -209,7 +212,7 @@ option{
 .work-card{
   
     border-radius: 15px;
-    height: 20vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,6 +225,11 @@ option{
 }
 .work-card:hover{
     box-shadow:0 0 20px var(--primary-color);
+}
+
+.work-card .icon{
+    font-size: 2rem;
+    color: var(--primary-color);
 }
 
 /* Skills  */
@@ -243,7 +251,13 @@ option{
     background-color: var(--tertiary-color);
     width: 30rem;
 }
-
+.ux{
+    width: 35rem;
+    height: .5rem;
+}
+.gd{
+    width: 27rem;
+}
 .image-skills-pngs{
     max-width: 30vw;
 }

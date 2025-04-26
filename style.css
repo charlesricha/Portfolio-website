@@ -314,26 +314,31 @@ option{
     display: none;
 }
 
+
 .myprojects{
+    padding: 1rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
     width: 80%;
     margin: 0 auto;
+    height: 130vh;
 }
 .project-card{
+  border-radius: 15px;
+  background: var(--font-color);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.project-text{
+    gap: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 1rem;
-    padding: 2rem;
-    border-radius: 15px;
-    background-color: var(--font-color);
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    
 }
 
 .project-card img{
-    max-width: 20vw;
+    max-width: 100%;
+    border-radius: 15px;
 }

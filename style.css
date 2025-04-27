@@ -396,7 +396,6 @@ option{
     }
     *{
         font-size: 1rem;
-        /* border: 2px solid orangered; */
     }
     .hero h1{
         font-size: 2rem;
@@ -406,13 +405,14 @@ option{
         gap: 1rem;
     }
     .left-content, .hero-img{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
-        padding: 0;
-        height: 40vh;
+        padding: 0 1rem;
+        height: auto;
     }
     .hero-img img{
-        height: 40vh;
+        height: auto;
+        max-width: 100%;
     }
 
     .bio-img img{
@@ -476,9 +476,44 @@ option{
 }
 @media screen and (max-width: 500px){
     .navbar{
-        display: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 8vh;
+        padding: 0 1rem;
     }
-  
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 8vh;
+        left: 0;
+        width: 100%;
+        background-color: var(--secondary-color);
+        z-index: 1000;
+        padding: 1rem 0;
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: var(--font-color);
+    }
+
+    .close-button {
+        display: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: var(--font-color);
+    }
+
     .left-content, .hero-img{
         width: 90%;
         height: 100%;
@@ -563,14 +598,14 @@ option{
 }
 
 /* Contact Section */
-.contact-section {
+.contact {
     padding: 4rem 2rem;
     background-color: var(--secondary-color);
     color: var(--font-color);
     text-align: center;
 }
 
-.contact-section h2 {
+.contact h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     font-family: var(--outfit);

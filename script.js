@@ -8,15 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Hamburger menu toggle
     hamburger.addEventListener('click', () => {
-        navMenu.classList.remove('hidden');
-        hamburger.classList.add('hidden');
-        closeButton.classList.remove('hidden');
+        navMenu.classList.add('show');
+        hamburger.style.display = 'none';
+        closeButton.style.display = 'block';
     });
 
     closeButton.addEventListener('click', () => {
-        navMenu.classList.add('hidden');
-        hamburger.classList.remove('hidden');
-        closeButton.classList.add('hidden');
+        navMenu.classList.remove('show');
+        hamburger.style.display = 'block';
+        closeButton.style.display = 'none';
     });
 
     // Dropdown toggle with improved behavior

@@ -1,5 +1,5 @@
 
-# Portfolio Website
+# 👩‍💻  Portfolio Website
 
 This is a personal portfolio website designed to showcase skills, projects, and contact information. It is built with HTML, CSS, and JavaScript to provide a responsive and visually appealing user experience.
 
@@ -10,7 +10,7 @@ The portfolio could not be a success without a collaborative team that did its b
 2.Felix Gishu
 3.Karen Mumbi
 
-## Features
+## ⚡ Features
 
 - **Hero Section**: A visually engaging introduction with a hero image.
 - **Biography Section**: A brief overview of personal and professional background.
@@ -19,7 +19,7 @@ The portfolio could not be a success without a collaborative team that did its b
 - **Contact Section**: A form to allow visitors to send messages directly.
 - **Footer**: Includes contact details and copyright information.
 
-## Technologies Used
+## 🎨 Technologies Used
 
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout.
@@ -27,7 +27,7 @@ The portfolio could not be a success without a collaborative team that did its b
 - **Font Awesome**: For icons.
 - **Google Fonts**: For typography.
 
-## How to Use
+## 💻 How to Use
 
 1. Clone the repository:
    ```bash
@@ -39,7 +39,7 @@ The portfolio could not be a success without a collaborative team that did its b
    ```
 3. Open the `index.html` file in your browser to view the website.
 
-## Folder Structure
+## 📂 Folder Structure
 
 ```
 Portfolio-website/

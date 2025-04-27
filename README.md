@@ -23,7 +23,7 @@ The portfolio could not be a success without a collaborative team that did its b
 
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout.
-- **JavaScript**: For interactivity (if applicable).
+- **JavaScript**: For interactivity .
 - **Font Awesome**: For icons.
 - **Google Fonts**: For typography.
 

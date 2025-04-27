@@ -28,18 +28,23 @@
             <a href="#biography">About</a>
             <a href="#my-works">Services</a>
 
-            <a href="#"><select name="Blog" id="blog">
-                <option value=""><a href="">Blog</a></option>
-                <option value=""><a href="">Articles</a></option>
-            </select></a>
+                <div class="dropdown">
+                    <button class="dropbtn">Blog <i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">Blog</a>
+                        <a href="#">Articles</a>
+                    </div>
+                </div>
 
-            <a href="#"><select name="Pages" id="blog">
-                <option value=""><a href="">Pages</a></option>
-                <option value="#"><a href="">Home</a></option>
-                <option value="#biography">About Me</option>
-                <option value=""><a href="#my-works">Services</a></option>
-                <option value=""><a href="#">Contact Me</a></option>
-            </select></a>
+                <div class="dropdown">
+                    <button class="dropbtn">Pages <i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">Home</a>
+                        <a href="#biography">About Me</a>
+                        <a href="#my-works">Services</a>
+                        <a href="#">Contact Me</a>
+                    </div>
+                </div>
 
         </nav>
 
@@ -374,6 +379,22 @@
     </div>
 </section>
 
+<section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form id="contact-form" class="contact-form" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Your email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>

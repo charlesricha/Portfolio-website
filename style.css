@@ -90,12 +90,19 @@ main{
     height:8vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 2rem;
     
 }
 nav{
     display: flex;
     gap: 2rem;
+    align-items: center;
+}
+nav a, nav .dropdown {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 select{
@@ -547,4 +554,130 @@ option{
         margin: 0 auto;
     }
 
+}
+
+/* Dropdown menu styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: var(--outfit);
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-form label {
+    text-align: left;
+    font-weight: 600;
+    font-family: var(--outfit);
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-family: var(--outfit);
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.contact-form button {
+    width: fit-content;
+    align-self: center;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 15px;
+    color: var(--font-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: var(--tertiary-color);
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: var(--font-color);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: var(--outfit);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.dropbtn:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--secondary-color);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown-content a {
+    color: var(--font-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: var(--outfit);
+}
+
+.dropdown-content a:hover {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+
+.dropdown-content.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
 }

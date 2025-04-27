@@ -716,3 +716,30 @@ option{
     opacity: 1;
     transform: translateY(0);
 }
+
+
+/* Footer Styles */
+.footer {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    font-family: var(--outfit);
+}
+
+.footer-content p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.footer-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-content a:hover {
+    color: var(--tertiary-color);
+    text-decoration: underline;
+}
+

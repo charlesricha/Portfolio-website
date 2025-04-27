@@ -31,7 +31,7 @@ The portfolio could not be a success without a collaborative team that did its b
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/charlesricha/Portfolio-website.git
    ```
 2. Navigate to the project directory:
    ```bash

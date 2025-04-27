@@ -45,7 +45,7 @@ The portfolio could not be a success without a collaborative team that did its b
 Portfolio-website/
 ├── index.html       # Main HTML file
 ├── style.css        # Stylesheet for the website
-├── script.js        # JavaScript file (if applicable)
+├── script.js        # JavaScript file 
 ├── images/          # Folder containing images used in the website
 └── README.md        # Project documentation
 ```

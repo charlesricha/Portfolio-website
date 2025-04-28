@@ -92,7 +92,8 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    
+    background: transparent;
+
 }
 nav{
     display: flex;
@@ -245,6 +246,7 @@ option{
 
 /* Skills  */
 .skills{
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -285,12 +287,14 @@ option{
 }
 
 .skills-grid-section{
+    height: auto;
     display: flex;
     width: 80%;
     margin: 0 auto;
     gap: 2rem;
     align-items: center;
-    justify-content:center
+    justify-content:center;
+    padding: 0 0 2rem 0; 
 }
 
 .skills-grid{
@@ -475,6 +479,12 @@ option{
    
 }
 @media screen and (max-width: 500px){
+    main{
+        
+        justify-content: space-between;
+        
+     }
+    
     .navbar{
         display: flex;
         flex-direction: row;

@@ -480,8 +480,8 @@ option{
 }
 @media screen and (max-width: 500px){
     main{
-        
-        justify-content: space-between;
+        height: 100vh;
+        justify-content: space-evenly;
         
      }
     
@@ -492,6 +492,10 @@ option{
         align-items: center;
         height: 8vh;
         padding: 0 1rem;
+    }
+    .hero{
+        display: flex;
+        height: 90vh;
     }
 
     .nav-menu {

@@ -11,8 +11,8 @@ The portfolio could not be a success without a collaborative team that did its b
 <li>Felix Gishu </li>
 <li>Karen Mumbi </li>
 
-View the live Site :
-
+<p>View the live Site :</p>
+<p>https://charlesricha.github.io/Portfolio-website/</p>
 
 ## ⚡ Features
 

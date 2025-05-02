@@ -6,9 +6,10 @@ This is a personal portfolio website designed to showcase skills, projects, and 
 The portfolio could not be a success without a collaborative team that did its best to deliver a unique and an outstanding project.
 
 **These members include:** 
-1.Charles Muthui
-2.Felix Gishu
-3.Karen Mumbi
+
+<li> 1.Charles Muthui </li>
+<li>2.Felix Gishu </li>
+<li>3.Karen Mumbi </li>
 
 ## ⚡ Features
 

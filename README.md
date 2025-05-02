@@ -7,9 +7,12 @@ The portfolio could not be a success without a collaborative team that did its b
 
 **These members include:** 
 
-<li> 1.Charles Muthui </li>
-<li>2.Felix Gishu </li>
-<li>3.Karen Mumbi </li>
+<li>Charles Muthui </li>
+<li>Felix Gishu </li>
+<li>Karen Mumbi </li>
+
+View the live Site :
+
 
 ## ⚡ Features
 
